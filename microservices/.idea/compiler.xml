@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Project" />
+        <module name="User" />
+        <module name="ldap" />
+        <module name="spring-security-client" />
+        <module name="hystrix-dashboard" />
+        <module name="api-gateway" />
+        <module name="service-registry" />
+        <module name="spring-security-client (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.5" />
+      <module name="hystrix-dashboard" target="1.5" />
+      <module name="ldap" target="1.5" />
+      <module name="Project" target="1.5" />
+      <module name="service-registry" target="1.5" />
+      <module name="spring-security" target="12" />
+      <module name="spring-security-client" target="1.5" />
+      <module name="spring-security-client (1)" target="1.5" />
+      <module name="User" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
